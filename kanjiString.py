@@ -37,6 +37,8 @@ class kanjiTools:
     
 
     def toRomaji_MOFA(self, kana):
+        # source: https://www.ezairyu.mofa.go.jp/passport/hebon.html
+
         out = []
         pt = 0
         doubleConsonant = False # 促音 check
